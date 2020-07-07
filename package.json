@@ -1,0 +1,19 @@
+{
+	"name": "stroople",
+	"version": "1.0.0",
+	"description": "A maths library so you can use easily use math commands without a hassle!",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/OfficiallyLost/Stroople.git"
+	},
+	"author": "OfficiallyLost",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/OfficiallyLost/Stroople/issues"
+	},
+	"homepage": "https://github.com/OfficiallyLost/Stroople#readme"
+}
