@@ -1,2 +1,2 @@
 # What is Stroople?
-Stroople is a random string generator, its quick and it comes with many options!
+Stroople is a maths library for JavaScript and TypeScript, it makes performing math commands a little bit easier for dynamic data!
