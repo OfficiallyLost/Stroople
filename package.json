@@ -1,8 +1,8 @@
 {
-	"name": "stroople",
-	"version": "1.0.4",
+	"name": "strooplejs",
+	"version": "1.0.0",
 	"description": "A maths library so you can use easily use math commands without a hassle!",
-	"main": "index.js",
+	"main": "./src/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
