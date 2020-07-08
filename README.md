@@ -4,7 +4,7 @@ Stroople is a maths library for JavaScript and TypeScript, it makes performing m
 
 # Examples
 ```js
-// Add numbers together
+// Add, divide, multiply or subract numbers together
 
 const Stroople = require('stroopijs');
 const math = new Stroople();
@@ -28,4 +28,14 @@ const Stroople = require('stroopijs');
 const math = new Stroople();
 
 math.round(1.31245321) // Expected output: 1.3
+```
+```js
+// Calculate numbers
+
+const Stroople = require('strooplejs');
+const math = new Stroople();
+
+math.calc('1 + 1'); // Expected output: 2
+math.calc('10 / 2'); // Expected output: 5
+math.calc('PI'); // Expected output: 3.141592653589793
 ```
