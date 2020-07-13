@@ -3,8 +3,8 @@ Installation: `npm i strooplejs`
 Stroople is a maths library for JavaScript and TypeScript, it makes performing math commands a little bit easier for dynamic data!
 
 # Examples
+### Add, divide, multiply or subract numbers
 ```js
-// Add, divide, multiply or subract numbers together
 
 const Stroople = require('stroopijs');
 const math = new Stroople();
@@ -21,16 +21,27 @@ math.add(THE_NUMBERxD); // Expected output: 15
 // Note: To subract, multiply or divide, replace 'math.add' with 'math.<subtract | multiply | divide>'
 // This library is still in development, more things coming soon!
 ```
+### Round numbers
 ```js
-// Round numbers to the nearest whole number
 
-const Stroople = require('stroopijs');
+const Stroople = require('strooplejs');
 const math = new Stroople();
 
-math.round(1.31245321) // Expected output: 1.3
+math.round(1.5); // Expected output: 2
+math.round(1.2); // Expected output: 1
+
+// Want to round numbers to a different Decimal Place?
+// NOTE: THIS IS OPTIONAL AS THE DEFAULT IS TO THE WHOLE NUMBER
+
+const Stroople = require('strooplejs');
+const math = new Stroople();
+
+math.round(1.5222, 1); // Expected output: 1.5
+math.round(333.3333, 2); // Expected output: 333.33
+
 ```
+### Calculate numbers 
 ```js
-// Calculate numbers
 
 const Stroople = require('strooplejs');
 const math = new Stroople();
