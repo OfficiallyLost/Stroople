@@ -7,7 +7,7 @@ class Mathematics {
     */
 	round = (number, dp) => {
 		let dp = dp;
-		if (!dp) dp = 2;
+		if (!dp) dp = 0;
 		else dp = dp;
 		if (typeof number !== 'number')
 			throw TypeError(`Typeof number must be a type of 'number', not '${typeof number}'`);
