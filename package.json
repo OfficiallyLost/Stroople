@@ -1,6 +1,6 @@
 {
 	"name": "strooplejs",
-	"version": "1.0.0",
+	"version": "0.0.0",
 	"description": "A maths library so you can use easily use math commands without a hassle!",
 	"main": "./src/index.js",
 	"scripts": {
