@@ -1,4 +1,4 @@
-// Divide numbers
+// Calculate numbers
 
 const Stroople = require('strooplejs');
 const math = new Stroople();
