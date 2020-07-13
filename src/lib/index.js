@@ -2,13 +2,16 @@
 
 class Mathematics {
 	/**
-    * 
+    * @param {?Number} dp the decimal place to round 'number' to, this is optional.
     * @param {Number} number a number to round to the nearest whole number
     */
-	round = (number) => {
+	round = (number, dp) => {
+		let dp = dp;
+		if (!dp) dp = 2;
+		else dp = dp;
 		if (typeof number !== 'number')
 			throw TypeError(`Typeof number must be a type of 'number', not '${typeof number}'`);
-		else return Math.round(number);
+		else return number.toFixed(dp);
 	};
 	/**
     * 
